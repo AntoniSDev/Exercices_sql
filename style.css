@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+table{
+    border: 5px solid rgba(14, 136, 173, 0.636);
+    background-color: rgba(0, 255, 255, 0.044);
+    border-radius: 1rem;
+    text-align: center;
+    width: 60%;      
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(0, 128, 0, 0.597);
+    margin: auto;
+    width: 300px;   
+}
+
+td button {   
+    background-color: black;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+td button a {
+     color: white;
+}
+
+
