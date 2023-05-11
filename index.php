@@ -35,8 +35,7 @@ require_once('close.php');
             <th>Amount of users by Country</th>
             <th>Add/Edit/Remove User</th>
             <th>Amount of Mens/Womens</th>
-            <th>Age of all/Mens/Womens</th>
-            <th>Age of all/Mens/Womens</th>
+            <th>Age of all/Mens/Womens</th>            
             <th>Country codes start by ?</th>
         </thead>
         <tbody>
@@ -46,10 +45,9 @@ require_once('close.php');
                 <td><button><a href="ncountry.php">TEST</a></button></td>
                 <td><button><a href="googlem.php">TEST</a></button></td>
                 <td><button><a href="countryusers.php">TEST</a></button></td>
-                <td><button><a href="">TEST</a></button></td>
-                <td><button><a href="">TEST</a></button></td>  
-                <td><button><a href="">TEST</a></button></td>   
-                <td><button><a href="">TEST</a></button></td>       
+                <td><button><a href="edituser.php">TEST</a></button></td>
+                <td><button><a href="genderamount.php">TEST</a></button></td>  
+                <td><button><a href="genderdate.php">TEST</a></button></td>                         
                 <td><button><a href="country.php">TEST</a></button></td>
             </tr>
         </tbody>
