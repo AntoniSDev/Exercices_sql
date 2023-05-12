@@ -23,12 +23,12 @@ $result = $query->fetchAll(PDO::FETCH_ASSOC);
 
 <body>
   <h1>
-   Google emails
+    Google emails
   </h1>
   <table>
     <tr>
-      <th>    
-    Google
+      <th>
+        Google
       </th>
     </tr>
 

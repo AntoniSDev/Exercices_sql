@@ -35,11 +35,11 @@ $result = $query->fetchAll(PDO::FETCH_ASSOC);
     <tr>
       <th>
 
-      <?php
-    $country_code = 'N%';
-    $country_code = str_replace('%', '', $country_code);
-    echo "First letter : $country_code";
-    ?>
+        <?php
+        $country_code = 'N%';
+        $country_code = str_replace('%', '', $country_code);
+        echo "First letter : $country_code";
+        ?>
 
       </th>
     </tr>
