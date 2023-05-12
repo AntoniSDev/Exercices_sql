@@ -21,7 +21,7 @@ require_once("connect.php");
   <table>
     <thead>
       <th>Palmers</th>
-      <th>All women</th>
+      <th>All female</th>
       <th>Country codes starting with N</th>
       <th>Google Mails</th>
       <th>Amount of users by Country</th>
@@ -32,18 +32,22 @@ require_once("connect.php");
     </thead>
     <tbody>
       <tr>
-        <td><button><a href="palmers.php">TEST</a></button></td>
-        <td><button><a href="female.php">TEST</a></button></td>
-        <td><button><a href="ncountry.php">TEST</a></button></td>
-        <td><button><a href="googlem.php">TEST</a></button></td>
-        <td><button><a href="countryusers.php">TEST</a></button></td>
-        <td>      
+        <td><button><a href="palmers.php">Palmers</a></button></td>
+        <td><button><a href="female.php">Female</a></button></td>
+        <td><button><a href="ncountry.php"> N </a></button></td>
+        <td><button><a href="googlem.php">Google</a></button></td>
+        <td><button><a href="countryusers.php">Country</a></button></td>
+        <td>   
+          <button>
             <a href="add.php">Add</a>
-						<a href="users.php">List</a>        
+          </button>
+          <button>
+            <a href="users.php">List</a>        
+          </button>   
         </td>    
-        <td><button><a href="genderamount.php">TEST</a></button></td>
-        <td><button><a href="genderdate.php">TEST</a></button></td>
-        <td><button><a href="country.php">TEST</a></button></td>
+        <td><button><a href="genderamount.php">Amount</a></button></td>
+        <td><button><a href="genderdate.php">Average Ages</a></button></td>
+        <td><button><a href="country.php">Try a Letter</a></button></td>
       </tr>
     </tbody>
   </table>

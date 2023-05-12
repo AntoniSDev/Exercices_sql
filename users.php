@@ -40,8 +40,7 @@ require_once('close.php');
 			<th>actions</th>
 		</thead>
 		<tbody>
-			<?php
-			//foreach result de $result afficher une ligne dans le tableau 
+			<?php			
 			foreach ($result as $users) {
 			?>
 				<tr>
@@ -57,16 +56,11 @@ require_once('close.php');
 			<?php
 			}
 			?>
-
-
-
-		</tbody>
-		
+		</tbody>		
 	</table>
 	
-	
-	
-	<a href="add.php">Add users</a>
+  <button><a href="index.php">Back</a></button>
+
 </body>
 
 </html>

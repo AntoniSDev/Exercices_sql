@@ -19,7 +19,6 @@ table {
 }
 
 h1 {
-  text-align: center;
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: bold;
@@ -35,7 +34,7 @@ td {
 }
 
 td button {
-  background-color: black;
+  background-color: #1c9b6f;
   font-size: 1rem;
   padding: 5px;
 }
